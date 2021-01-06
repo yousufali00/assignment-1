@@ -1,0 +1,250 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Banner top start */
+#top-banner{
+    display: flex;
+}
+.banner-left{
+    width: 50%;
+    padding: 40px 40px;
+}
+.banner-right{
+    width: 50%;
+    padding: 40px 40px;
+}
+
+.banner-left{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.banner-title, .banner-title-2{
+    font-size: 70px;
+}
+
+.banner-title{
+    color: #363958;
+    margin-top: 20px !important;
+    line-height: 45px;
+}
+.banner-title-2{
+    color: #FF8367;
+}
+.banner-text{
+    margin-bottom: 40px;
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 40px;
+    color: #000;
+    border: 1px solid #F46060;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color: #fff;
+    background-image: linear-gradient(45deg, #FF8063, #F46060);
+}
+
+.banner-right img{
+    max-width: 100%;
+}
+
+/* Banner top ends */
+
+/* about start */
+#about{
+    display: flex;
+}
+.about-left, .about-right{
+    width: 50%;
+    padding: 40px 40px;
+}
+
+.about-left img{
+    max-width: 100%;
+}
+.about-right{
+    padding-top: 100px;
+}
+.about-title{
+    font-size: 60px;
+    color: #363958;
+}
+.about-text{
+    margin-bottom: 35px;
+}
+.download-icon img{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.btn-2{
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    background-image: linear-gradient(0deg, #FF8063, #F46060);
+    border-radius: 3px;
+}
+
+/* about ends */
+
+/* projects start */
+#projects{
+    text-align: center;
+}
+.project-title{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.project-title span{
+    color: #F46060;
+}
+
+.project-wrapper{
+    display: flex;
+}
+.project-item{
+    width: 30%;
+    margin: 0 2%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 7px 32px -2px rgba(0,0,0,0.45);
+}
+.project-item img{
+    max-width: 100%;
+}
+.portfolio-item-content{
+    padding: 10px 15px;
+}
+.portfolio-item-content .title{
+    font-size: 36px;
+    color: #363958;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.portfolio-item-content .text{
+    text-align: left;
+    margin: 0;
+    padding-bottom: 15px;
+
+}
+
+
+/* projects ends */
+
+/* work start */
+
+#work{
+    padding-top: 230px;
+    padding-bottom: 100px;
+}
+.work-wrapper{
+    width: 80%;
+    height: 225px;
+    padding: 0 40px;
+    margin: 0 auto;
+    background: url(./images/shape/Group_33094_1.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.work-title{
+    margin-top: 72px;
+    font-size: 62px;
+    color: #fff;
+    display: inline-block;
+}
+
+.btn-work{
+    margin-top: 80px;
+    margin-right: 30px;
+    float: right;
+}
+
+/* work ends */
+
+/* Contact start */
+#contact{
+    padding: 100px 0;
+}
+.contact-title{
+    font-size: 60px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.contact-title span{
+    color: #F46060;
+}
+.contact-item{
+    display: inline-block;
+    width: 25%;
+    margin: 0 1%;
+    border: 1px solid #F46060;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+.contact-item h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+.contact-item h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0 0 0;
+}
+
+/* Contact ends */
+
+/* Footer start */
+
+#footer{
+    text-align: center;
+}
+
+#footer h3{
+    font-size: 28px;
+    color: #696871;
+}
+#footer h1{
+    font-size: 42px;
+    color: #363958;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.social-icons ul li a img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Footer ends */
